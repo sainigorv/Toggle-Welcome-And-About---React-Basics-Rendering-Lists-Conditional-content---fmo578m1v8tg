@@ -22,7 +22,9 @@ const App = () => {
         </div>
       )}
 
-      <button id="toggle">Toggle</button>
+      <button id="toggle" onClick={toggleText}>
+        Toggle
+      </button>
     </div>
   );
 };
